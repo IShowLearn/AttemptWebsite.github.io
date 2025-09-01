@@ -1,0 +1,41 @@
+/*@keyframes NewAnimation {
+  0% {
+    transform: skew(0deg, 0deg);
+  }
+  25% {
+    transform: skew(50deg, 20deg);
+  }
+  50% {
+    transform: skew(0deg, 0deg);
+  }
+  75% 
+  {
+    transform: skew(-50deg, 20deg);
+  }
+  100% {
+    transform: skew(0deg, 0deg);
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  div > .logo {
+    animation: logo-spin infinite 1s ease-in-out;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
